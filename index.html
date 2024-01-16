@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polirrubro Andrea</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="logo" src="./img/logo.png">
+        <nav class="navbar navbar-expand-lg navbar-light";>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./pages/Quienessomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contactos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./pages/golosinas.html">Golosinas</a></li>
+                      <li><a class="dropdown-item" href="./pages/limpieza.html">Limpieza</a></li>
+                      <li><a class="dropdown-item" href="./pages/almacen.html">Almacen</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <br>
+
+    <main>
+            <h1 class="marcas-titulo">Nuestras <br>  marcas</h1>
+            <div id="marcas-carousel" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/golosinas.png" class="d-block w-100" alt="Golosinas" height="800px" width="6000px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/Almacen.jpg" class="d-block w-100" alt="Almacen" height="800px" width="6000px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/cigarrillos.jpg" class="d-block w-100" alt="Cigarrillos" height="800px" width="6000px">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#marcas-carousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#marcas-carousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        
+        
+        <h1 class="ofertas">Ofertas <br> semanales </h1>
+
+        <div id="ofertas-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/ofertas/beldent.png" class="d-block w-100" alt="Beldent">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ofertas/cofler.png" class="d-block w-100" alt="Cofler">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ofertas/jorgitox6.png" class="d-block w-100" alt="Jorgito x6">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ofertas/tictac.png" class="d-block w-100" alt="Tic Tac">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#ofertas-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#ofertas-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <h1 class="pay">Metodos de <br> pago</h1>
+        <section class="metodo-pago" style="display: flex; justify-content: center";>
+            <div class="box">
+                <i class="icon-pay bi bi-credit-card-2-back-fill"></i>
+                <P>Tarjetas de credito y <br> debito</P>
+            </div>
+            <div class="box">
+                <i class="icon-pay bi bi-bank"></i>
+                <p>Mercadopago</p>
+
+            </div>
+            <div class="box">
+                <i class="icon-pay bi bi-person-vcard-fill"></i>
+                <p>Cuenta DNI</p>
+            </div>
+        </section>
+    </main>
+    <br>
+    <footer class="footer">
+        <div class="footer1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium deleniti eum illo quis dolore error voluptates, iusto nulla quia.</p>
+            <p class="copy">Copyright C.P</p>
+        </div>
+        <div class="footer2">
+            <ul>
+                <li><a href="./index.html">Inicio</li></a><br>
+                <li><a href="./pages/Quienessomos.html">About</li></a><br>
+                <li><a href="./pages/contacto.html">Contacto</li></a>
+            </ul>
+        </div>
+        <div class="footer3">
+            <ul>
+                <li><i class="bi bi-telephone-fill"></i>+13423424124</li>
+                <br>
+                <li><i class="bi bi-whatsapp"></i>+4534535456</li>
+                <br>
+                <li><i class="bi bi-geo-alt-fill"></i>Bs.As - Arg </li>
+                
+            </ul>
+        </div>
+        <div class="footer4">
+            <ul>
+                <li><a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com"><i class="bi bi-twitter"></i></a></li>
+                
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
