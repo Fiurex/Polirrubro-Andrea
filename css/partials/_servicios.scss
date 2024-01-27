@@ -1,0 +1,70 @@
+.servicios{
+    padding: 3rem;
+
+    & :hover{
+        transform: scale(1.1);
+    }
+}
+.service-title {
+    background-color: #2a2c66;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+
+
+}
+.grid-service{
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+
+}
+.servicio{
+    background-color: #2a2c66;
+    padding: 1.5rem;
+    flex: 1;
+    border: 5px;
+    & :hover{
+        transform: scale(1.1);
+    }
+}
+.service-icon {
+    font-size: 2.5rem;
+}
+
+.service-text{
+    margin-top: .5rem;
+    font-size: .9rem;
+}
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
